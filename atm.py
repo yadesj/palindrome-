@@ -1,3 +1,7 @@
 balance = 1000
-print("current balance",balance)
+
+deposit = int(input("Enter deposit amount: "))
+balance = balance + deposit
+
+print("Current Balance:", balance)
 
